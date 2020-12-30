@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EditActivity">
+    tools:context=".EditActivity"
+    android:background="@drawable/backgroundgradient">
 
     <EditText
         android:id="@+id/editItem"
@@ -19,7 +20,8 @@
         android:layout_marginRight="0dp"
         android:layout_marginBottom="0dp"
         android:ems="10"
-        android:hint="Update the item" />
+        android:hint="Update the item"
+        android:layout_alignParentLeft="true" />
 
     <Button
         android:id="@+id/buttonSave"

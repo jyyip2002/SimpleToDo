@@ -41,6 +41,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.drawable.saveicon);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
+
+
+
         buttonAdd = findViewById(R.id.buttonAdd);
         editTextItem = findViewById(R.id.editTextItem);
         rvItems = findViewById(R.id.rvItems);

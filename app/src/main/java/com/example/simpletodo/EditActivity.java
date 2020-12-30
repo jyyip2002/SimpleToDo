@@ -18,6 +18,10 @@ public class EditActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit);
 
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.drawable.editicon);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
+
         editItem = findViewById(R.id.editItem);
         buttonSave = findViewById(R.id.buttonSave);
 
