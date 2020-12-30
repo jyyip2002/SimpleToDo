@@ -20,7 +20,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] Added background image to each activity
+* [x] Added icons to each activity's action bar
 
 ## Video Walkthrough
 
